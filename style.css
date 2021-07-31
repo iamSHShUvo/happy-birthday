@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+
     box-sizing: border-box;
 }
 body{
@@ -97,24 +98,25 @@ transition: transform 1.5s;
     font: 35px;
     margin: 8px 5px;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 .profession{
     color: rgb(255, 238, 0);
     font-size: 25px;
     margin: 8px 5px;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
 }
 .left-side .name,
 .left-side .profession{
     text-align: end;
     
 }
-.right-side .name,
+/* .right-side .name,
 .right-side .profession{
-    text-align:start;
+    text-align:start; */
     
-}
+
 .biography{
     color: white;
     font-size: 22px;
